@@ -1,0 +1,16 @@
+.infoLukisan{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #E0E0E0;
+    border-radius: 50px;
+}
+
+.tombol {
+    background-color: #052B4F;
+    border: 0px;
+    margin-top: 16px;
+    color: #FFFFFF;
+    width: 140px;
+    padding: 5px;
+    border-radius: 10px;
+}
