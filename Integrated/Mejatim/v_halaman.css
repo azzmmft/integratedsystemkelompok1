@@ -1,0 +1,77 @@
+.konten{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.begin {
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    background-color: #FAFAFA;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 10px;
+    width: calc(25% - 20px); /* Empat konten per baris */
+    box-sizing: border-box;
+}
+
+.gallery-item button{
+    background-color: #FAFAFA;
+    border: none;
+    padding: 0;
+}
+
+.add-button {
+    font-size: 4rem;
+    border: none;
+}
+
+
+.events-container {
+    margin: 20px auto;
+    max-width: 800px; 
+    padding: 15px;
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.event {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease; 
+}
+
+.event:hover {
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.event-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; 
+}
+
+.event-date {
+    font-size: 14px;
+    color: #666; 
+}

@@ -1,0 +1,160 @@
+/* Reset dasar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D4EBF8; /* Warna latar belakang */
+    color: #0A3981; /* Warna teks */
+}
+.konten{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #1F509A;
+    margin: 20px 0;
+    font-size: 2.5em;
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    color: #E38E49;
+    font-weight: bold;
+}
+a:hover {
+    color: #1F509A;
+}
+
+/* Kontainer utama */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Putih untuk konten */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    border-radius: 10px; /* Sudut melengkung */
+}
+
+/* Daftar event */
+.event {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #1F509A;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event h2 {
+    color: #1F509A;
+    margin-bottom: 10px;
+}
+
+.event p {
+    margin: 5px 0;
+}
+
+.event img {
+    border: 2px solid #1F509A;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.event .lukisan-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Tombol aksi */
+button {
+    background-color: #E38E49;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 10px;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+}
+button:hover {
+    background-color: #1F509A;
+}
+
+/* Formulir */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+    color: #0A3981;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    border: 1px solid #1F509A;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button {
+    align-self: flex-start;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0A3981;
+    color: white;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* Form login */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #1F509A;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #E38E49;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #1F509A;
+}
+

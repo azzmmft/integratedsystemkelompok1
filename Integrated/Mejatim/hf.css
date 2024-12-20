@@ -1,0 +1,70 @@
+body{
+    background-color: #F1F5F9;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #E0E0E0;
+}
+
+.MeJatim_header {
+    margin: 0;
+    color: #32373C;
+}
+
+.profile-button {
+    padding: 0;
+    border: none;
+    background: none;
+    color: #32373C;
+}
+
+.profile-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #052B4F;
+    padding: 20px 0;
+}
+
+.Mejatim_footer {
+    margin: 0;
+    color: #FEFEFE;
+}
+
+.sosmed{
+    color: #FEFEFE;
+}
+
+.social-media .list-inline-item {
+    margin-right: 15px;
+}
+
+.social-media .list-inline-item a {
+    color: #FEFEFE;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-media .list-inline-item a:hover {
+    color: #FEFEFE;
+}
+
+.copyright {
+    color: #FEFEFE;
+    margin: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.konten{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}

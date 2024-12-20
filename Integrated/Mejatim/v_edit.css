@@ -1,0 +1,48 @@
+.judul {
+    padding-bottom: 40px;
+}
+
+.judul2 {
+    font-size: 1.5em;
+}
+
+.formulir{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #E0E0E0;
+    border-radius: 50px;
+}
+
+.form-group input{
+    background-color:rgba(5, 43, 79, 0.4);
+    border: 0px;
+    margin-left: 40px;
+    width: 60%;
+}
+
+.addGambar{
+    background-color: #052B4F;
+    color: #FFFFFF;
+    width: 200px;
+    padding: 5px;
+    margin-right: 400px;
+    border-radius: 10px;
+}
+
+input[type="file"] {
+    display: none;
+    border: 0px;
+}
+
+
+.tombol {
+    background-color: #052B4F;
+    border: 0px;
+    margin-top: 16px;
+    color: #FFFFFF;
+    width: 140px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
